@@ -33,10 +33,10 @@ const NavBar = () => {
 					</div>
 				</div>
 				<div className='hidden lg:flex gap-x-4 items-center'>
-					<ul>
+					<ul className='text-gray-600'>
 						<Link href={'sign-in'}>Sign In</Link>
 					</ul>
-					<ul className='bg-primaryColor px-4 py-2 rounded-md'>
+					<ul className='bg-primaryColor text-white px-4 py-2 rounded-md'>
 						<Link href={'sign-up'}>Sign Up</Link>
 					</ul>
 				</div>
